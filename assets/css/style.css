@@ -1,0 +1,94 @@
+body{
+    max-width: 1920 px;
+	margin:0 auto;
+}
+.background{
+    background-image: url(/assets/image/background.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.header{
+    
+    display: flex;
+    justify-content: center;   
+    padding-top: 50px;
+}
+.header img{
+    text-align: center;
+    width: 230px;
+}
+.sensity{
+    display: flex;
+    justify-content: center; 
+    margin-top: 150px;
+}
+.sensity img{
+ width: 380px;
+}
+
+
+.donner{
+    display: flex;
+    justify-content: center;   
+    margin-top: 50px;
+}
+.donner img{
+    width: 430px;
+}
+
+
+/* banner text */
+.text h2{
+    margin-top: 80px;
+    color:white;
+    text-align: center;
+    font-size: 19px;
+    width: 420px;
+    margin:50px auto 0 auto ;
+    font-family: 'SF Compact Display', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Button */
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 90px 0;
+}
+.btn{
+    padding: 16px 20px;
+    background-color: #53CABB;
+    color: white;
+    border: none;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: #53CABB;
+    transition: 1s;
+}
+
+/* footer */
+.footer{
+    background-color: #53CABB;
+    padding:18px 0 ;
+}
+.footer h1{
+    color: white;
+    text-align: center;
+    font-family: 'SF Compact Display', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-family: 'SF Compact Display', sans-serif;
+    padding-top: 10px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 13px;
+}
